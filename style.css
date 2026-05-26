@@ -814,3 +814,82 @@ footer p{
   }
 
 }
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 768px){
+
+    nav{
+        padding:15px 20px;
+        flex-direction:column;
+        gap:20px;
+    }
+
+    ul{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:18px;
+    }
+
+    .hero{
+        padding:140px 20px 80px;
+    }
+
+    #title{
+        font-size:55px;
+        line-height:65px;
+    }
+
+    #subtitle{
+        font-size:20px;
+        line-height:32px;
+    }
+
+    .hero-buttons{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .services-grid,
+    .projects-grid,
+    .pricing-grid,
+    .stats{
+        grid-template-columns:1fr;
+    }
+
+    .about{
+        grid-template-columns:1fr;
+        gap:50px;
+    }
+
+    .about-image img{
+        width:100%;
+    }
+
+    .contact-form{
+        grid-template-columns:1fr;
+    }
+
+    .section-title{
+        font-size:42px;
+    }
+
+    .service-card,
+    .pricing-card,
+    .project-card{
+        width:100%;
+    }
+
+    .pricing-card.featured{
+        transform:none;
+    }
+
+    .stat-card h3{
+        font-size:48px;
+    }
+
+    footer{
+        padding:40px 20px;
+        text-align:center;
+    }
+
+}
